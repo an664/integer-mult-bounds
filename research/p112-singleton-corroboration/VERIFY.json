@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Primary exact replay: reconstruct finite geometry, copied 39-stratum table, binary-functional cuts, anchor pairings, five exact rational fixtures and nine supplied rejection controls, then compare the complete certificate. Written arbitrary-complex reduction and power bound remain separate proof obligations."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "{package}/independent_check.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Same-session algorithmic cross-check with separate geometry/support generation, compressed binary labels and rational adjugate inversion; not independent authorship or a formal proof."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "{package}/review_examples.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Recompute 672explicit coordinate/anchor/in-out support ranks and three exact rational review matrices using the source-pinned producer API; reject two false equality inferences and compare saved report. No universal amplitude or power-continuum execution."
+    }
+  ]
+}

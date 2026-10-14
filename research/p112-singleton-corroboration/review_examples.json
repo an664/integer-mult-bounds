@@ -1,0 +1,299 @@
+{
+  "all_anchor_ranks": [
+    8
+  ],
+  "anchor_support_checks": 672,
+  "fixture_inputs": [
+    {
+      "M": [
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "beta": 0,
+      "expected_complete_copy": 64,
+      "expected_ranks": [
+        8,
+        8,
+        8,
+        0
+      ],
+      "lambda": 1,
+      "name": "review_nonmonomial_isolated_equality",
+      "u": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "M": [
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          0
+        ],
+        [
+          1,
+          4,
+          9,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "beta": 0,
+      "expected_complete_copy": 67,
+      "expected_ranks": [
+        9,
+        9,
+        9,
+        0
+      ],
+      "lambda": 1,
+      "name": "review_isolated_nonoptimal",
+      "u": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "M": [
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "beta": 0,
+      "expected_complete_copy": 65,
+      "expected_ranks": [
+        8,
+        8,
+        8,
+        1
+      ],
+      "lambda": 1,
+      "name": "review_unipotent_nonisolated_attainment",
+      "u": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  ],
+  "fixture_results": [
+    {
+      "D_support_sizes": [
+        56,
+        76,
+        56,
+        2
+      ],
+      "D_supports": [
+        "0xc03ff0000ffff0000ffc03ffff00",
+        "0xf0ffcc3c33ffcc3c33ff0ffcfcff",
+        "0x30c3c3c3c3c3c3c3c3c30cc3c3ff",
+        "0x6"
+      ],
+      "T_support_sizes": [
+        76,
+        56,
+        56,
+        1
+      ],
+      "T_supports": [
+        "0xf0f3fc3c3fc3fc3c3fcf0f3f3fff",
+        "0x30cc3c3c3c3c3c3c3c330cc3c3ff",
+        "0x30c3c3c3c3c3c3c3c3c30cc3c3ff",
+        "0x1"
+      ],
+      "U": "0x6",
+      "U_size": 2,
+      "U_span": 2,
+      "a_zero_columns": [
+        3
+      ],
+      "b_zero_columns": [
+        3
+      ],
+      "beta": 0,
+      "complete_copy": 64,
+      "mixed_ranks": [
+        8,
+        8,
+        8,
+        0
+      ],
+      "name": "review_nonmonomial_isolated_equality"
+    },
+    {
+      "D_support_sizes": [
+        80,
+        104,
+        104,
+        2
+      ],
+      "D_supports": [
+        "0xe07f0ffff0ff0ffff0fe07fffff0",
+        "0xf0ffffffffffffffffff0fffffff",
+        "0xf0ffffffffffffffffff0fffffff",
+        "0x6"
+      ],
+      "T_support_sizes": [
+        102,
+        102,
+        102,
+        1
+      ],
+      "T_supports": [
+        "0xf0ffffffffffffffffff0fbfbfff",
+        "0xf0ffffffffffffffffff0f7f7fff",
+        "0xf0ffffffffffffffffff0f7f7fff",
+        "0x1"
+      ],
+      "U": "0x6",
+      "U_size": 2,
+      "U_span": 2,
+      "a_zero_columns": [
+        3
+      ],
+      "b_zero_columns": [
+        3
+      ],
+      "beta": 0,
+      "complete_copy": 67,
+      "mixed_ranks": [
+        9,
+        9,
+        9,
+        0
+      ],
+      "name": "review_isolated_nonoptimal"
+    },
+    {
+      "D_support_sizes": [
+        56,
+        56,
+        56,
+        58
+      ],
+      "D_supports": [
+        "0xc03ff0000ffff0000ffc03ffff00",
+        "0x30cc3c3c3c3c3c3c3c330cc3c3ff",
+        "0x30c3c3c3c3c3c3c3c3c30cc3c3ff",
+        "0xc03ff0000ffff0000ffc03ffff06"
+      ],
+      "T_support_sizes": [
+        57,
+        56,
+        56,
+        1
+      ],
+      "T_supports": [
+        "0xc03ff0000ffff0000ffc03ffff01",
+        "0x30cc3c3c3c3c3c3c3c330cc3c3ff",
+        "0x30c3c3c3c3c3c3c3c3c30cc3c3ff",
+        "0x1"
+      ],
+      "U": "0x6",
+      "U_size": 2,
+      "U_span": 2,
+      "a_zero_columns": [],
+      "b_zero_columns": [
+        3
+      ],
+      "beta": 0,
+      "complete_copy": 65,
+      "mixed_ranks": [
+        8,
+        8,
+        8,
+        1
+      ],
+      "name": "review_unipotent_nonisolated_attainment"
+    }
+  ],
+  "geometry_sha256": "384dd5b48cfd306667deafa09f58255f39a8099e609122dc695fe4ce416b2115",
+  "rejection_controls": [
+    {
+      "message": "the explicit equality block is nonmonomial",
+      "name": "false_equality_requires_monomial_block",
+      "rejected": true
+    },
+    {
+      "message": "the explicit isolated block costs 67",
+      "name": "false_isolation_alone_implies_copy64",
+      "rejected": true
+    }
+  ],
+  "scope": "Explicit finite checks from Pro review Sections6/7 only; no arbitrary-amplitude or power-continuum execution.",
+  "status": "PASS_REVIEW_EXPLICIT_FINITE_CHECKS"
+}

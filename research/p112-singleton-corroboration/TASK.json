@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "task_id": "complex-masked-decoder",
+  "priority_revision": 2,
+  "base_commit": "55a02580ce1b283026e9d3b3510b218f8c93a4de",
+  "original_card": {
+    "id": "complex-masked-decoder",
+    "question": "Can one specified masked or overcomplete decoder improve the complete moment budget?",
+    "starting_points": [
+      "research/complex-decoder-field-extension-seed44/README.md",
+      "research/complex-frame-pair-decoders/README.md"
+    ],
+    "methods": [
+      "Synthesize a decoder with exact coefficients and fully priced helper endpoints.",
+      "Bound the best possible budget for a fixed support alphabet before synthesis."
+    ],
+    "acceptance_gate": "Change an assumption of the eight-term all-pairs bound and count all copied information, frames and restoration.",
+    "first_step": {
+      "command": [
+        "python3",
+        "-B",
+        "research/complex-decoder-field-extension-seed44/verify.py"
+      ],
+      "expected": "PASS_COMPLEX_DECODER_FIELD_EXTENSION_S44",
+      "inspect": "Locate the excluded classes: masked identities, at least nine terms, and deeper punctures.",
+      "scope": "Positive control / source-bound orientation only; this is not a new construction or full cold replay."
+    },
+    "first_experiment": "Choose one finite support alphabet and test exact decoding constraints before building a whole network.",
+    "bottleneck_link": "A cheaper fully realized decoder could increase deficit or lower recursive cost on the binding complex side.",
+    "allowed_variations": [
+      "Select a specific masked or overcomplete family with exact labels and supports."
+    ],
+    "scope_change_triggers": [
+      "Repeating the exact eight-term all-pairs search inside its proved scope."
+    ],
+    "overlap_terms": [
+      "masked decoder",
+      "overcomplete",
+      "eight-term"
+    ]
+  },
+  "scope_status": "changed",
+  "actual_scope": "Independently reconstruct the fixed J=(2,4,5), |U|>=2 P112 singleton-column COPY64/power floor and retain the separate Pro common-pure-column equality/nonisolated-penalty analysis with explicit finite checks; credit broader PR1613.",
+  "scope_change_reason": "PR1613 now covers the original fixed-triple theorem within its broader all 56-triple result. Preserve independent fixed-triple reconstruction and the separate Pro equality review as fork-only corroboration, not a duplicate upstream theorem PR or a new construction.",
+  "bottleneck_link": "This follows PR1512 open question 1 by removing its two-sided support assumption only on the singleton right side. It tests the fully charged separate COPY and power relaxation before any physical synthesis.",
+  "budget_minutes": 120,
+  "stop_rule": "Publish only the fork evidence and a corroborating Discussion finding if root approves; no duplicate upstream theorem PR, new mathematics, all-triple claim or physical synthesis.",
+  "outcome": "completed",
+  "evidence": "Two unchanged producer checkers passed local normal/optimized 3.12.14 replay. A separate Pro proof review reported no flaw and derived the exact nonisolated penalty. Its explicit 672 anchor checks, three fixtures and two boundary controls were locally replayed using the producer API. Public PR1613 head/body/README/TASK were read for overlap only; its programs and broader transports were not audited.",
+  "author": "Andrey Mas",
+  "ai_assistance": "GPT-6 Pro through ChatGPT supplied the research, proof and both checker implementations. Both checkers originate in the same session and are an algorithmic cross-check, not independent authorship or human review. Codex prepared sources, audited execution, mechanically replayed and prepared packaging metadata; producing-session model self-descriptions are not used as provenance. A separate GPT-6 Pro adversarial review reconstructed the finite premises from the transcribed theorem without auditing the producer programs; its Sections 5-7 equality/nonisolated refinement is retained as reviewer-authored written mathematics with only its explicit finite examples locally replayed.",
+  "open_questions": [
+    {
+      "question": "Can the finite-premise-to-universal compensation theorem be checked in a proof assistant?",
+      "why_it_matters": "Finite exhaustive checks do not themselves verify the universal complex-amplitude, dual-column and continuum-power reasoning.",
+      "first_step": "Formalize the restriction-rank identity and compensation-cut lemma under explicit F1-F5 premises; then encode the four dual-column cases and componentwise power comparison.",
+      "blocked_by": "Formal complex-support, binary-rank and real-power interfaces and binding of the finite certificate are not supplied."
+    }
+  ],
+  "scope_key": "complex-masked-decoder/P112/J-2-4-5/singleton-right/left-support-at-least-two/GL4/separate-billing",
+  "coordination": {
+    "claim": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1550",
+    "overlap": "PR1613 a34723742801f877c9636ed72f176a7ffa7bf005 directly covers the original claim and explicitly credits earlier Discussion1550. Its full public body/README/TASK were read after the 03:59 publication; pivot to independent corroboration and equality evidence. No novelty claim for an omission from its README. PR1591 remains distinct single-entry/all-nine-factor work."
+  },
+  "explicit_scope_limits": [
+    "No different mode triple, extra modes or multiple corrections.",
+    "No |U|=|V|=1 claim or all-nine-factor mixing.",
+    "No shared COPY, physical supplier, paid recurrence, kappa or frontier change.",
+    "Copied 39-stratum geometry and the 64-copy benchmark are predecessor work, not new results."
+  ],
+  "priority_checkpoint": {
+    "revision": 3,
+    "observed_main": "81e81af67714bdc8d1693b0bf5c29468b92f62ff",
+    "note": "Historical revision-2 task/source provenance is retained. At revision 3 the original result is overlapped by PR1613, so the final contribution is a bounded independent corroboration/equality record in the fork, with no upstream duplicate theorem PR or supplier claim."
+  }
+}

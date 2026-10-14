@@ -1,0 +1,171 @@
+{
+  "schema": "p112-singleton-corroboration-replay-v1",
+  "date": "2026-10-14",
+  "original_program_environment": {
+    "python": "3.12.14",
+    "platform": "macOS 26.5.1 arm64",
+    "producer_environment": "Python 3.13.5 as recorded in original downloaded logs; distinct from local replays."
+  },
+  "original_source_archive_sha256": "d6ef742ccde629d53cf4f88ebe5a5b05bd818fe79ceed5513c302bc824e8c39a",
+  "original_runs": [
+    {
+      "name": "verify-normal",
+      "arguments_after_interpreter": [
+        "-I",
+        "-B",
+        "verify.py"
+      ],
+      "started_at": "2026-10-14T03:33:26.973619+00:00",
+      "returncode": 0,
+      "wall_seconds": 5.077791,
+      "timeout": false,
+      "stderr": "",
+      "stdout_sha256": "5dbe118f0d13b6a6b59115a18c9510ff9286d01ddad86316881f3eacda8be9d6"
+    },
+    {
+      "name": "verify-optimized",
+      "arguments_after_interpreter": [
+        "-I",
+        "-O",
+        "-B",
+        "verify.py"
+      ],
+      "started_at": "2026-10-14T03:33:26.974009+00:00",
+      "returncode": 0,
+      "wall_seconds": 5.166224,
+      "timeout": false,
+      "stderr": "",
+      "stdout_sha256": "5dbe118f0d13b6a6b59115a18c9510ff9286d01ddad86316881f3eacda8be9d6"
+    },
+    {
+      "name": "independent_check-normal",
+      "arguments_after_interpreter": [
+        "-I",
+        "-B",
+        "independent_check.py"
+      ],
+      "started_at": "2026-10-14T03:33:26.974133+00:00",
+      "returncode": 0,
+      "wall_seconds": 9.093843,
+      "timeout": false,
+      "stderr": "",
+      "stdout_sha256": "15a49a69d5502eec66659d2dc65744da31aadd1a079c5a3f9159de8f51daf895"
+    },
+    {
+      "name": "independent_check-optimized",
+      "arguments_after_interpreter": [
+        "-I",
+        "-O",
+        "-B",
+        "independent_check.py"
+      ],
+      "started_at": "2026-10-14T03:33:26.975193+00:00",
+      "returncode": 0,
+      "wall_seconds": 9.133035,
+      "timeout": false,
+      "stderr": "",
+      "stdout_sha256": "15a49a69d5502eec66659d2dc65744da31aadd1a079c5a3f9159de8f51daf895"
+    }
+  ],
+  "original_replay_scope": "39 support strata;1,521 baseline pairs;4,368 deletions;170,352 anchor pairs;19,926 nonempty cuts;5 rational fixtures;9 primary rejection controls. Same-Pro-session algorithmic cross-check, not independent authorship.",
+  "original_normal_optimized_stdout_identical": true,
+  "original_supplied_result_matches_except_python_version": true,
+  "source_binding": "All 39copied rows match pinned PR1512 certificate; all received original files and isolated replay copies unchanged.",
+  "execution_audit": "Both complete original programs read before execution; stdlib only; no subprocess/network/install; default read-only. All substantive guards use exceptions and survive -O.",
+  "review_example_runs": [
+    {
+      "mode": "normal",
+      "command": [
+        "/Users/andrejmas/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "-B",
+        "check_review_examples.py"
+      ],
+      "cwd": "/Users/andrejmas/Documents/Codex/2026-10-14/contribute-one-useful-independently-reviewable-result/work/coordination/pro-p112-equality-replay/isolated",
+      "started_at": "2026-10-14T04:15:12.797117+00:00",
+      "wall_seconds": 0.394468,
+      "returncode": 0,
+      "stderr_empty": true,
+      "stdout_sha256": "20975a69c92bb57309f0aa8b1908faef0107c5008f1167f0ffaff09ff62f8f89"
+    },
+    {
+      "mode": "optimized",
+      "command": [
+        "/Users/andrejmas/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "-O",
+        "-B",
+        "check_review_examples.py"
+      ],
+      "cwd": "/Users/andrejmas/Documents/Codex/2026-10-14/contribute-one-useful-independently-reviewable-result/work/coordination/pro-p112-equality-replay/isolated",
+      "started_at": "2026-10-14T04:15:13.193375+00:00",
+      "wall_seconds": 0.482265,
+      "returncode": 0,
+      "stderr_empty": true,
+      "stdout_sha256": "20975a69c92bb57309f0aa8b1908faef0107c5008f1167f0ffaff09ff62f8f89"
+    }
+  ],
+  "review_example_normal_optimized_stdout_identical": true,
+  "review_example_scope": "Explicit 672 support cases,3 rational fixtures and2 boundary controls; no universal statement checked by enumeration. Package version uses identical checks, reads verify.py directly and compares a compact saved report.",
+  "review_text_boundary": "Sections 5-7 from transported chat text, with markers removed; no canonical downloaded-byte identity or local reviewer-code replay.",
+  "unrun_obligations": [
+    "Formal/kernel or human proof review.",
+    "PR1613 code,56 transports and zero/single-entry cases.",
+    "Physical supplier/native admission or full selected cold replay.",
+    "Hosted CI."
+  ],
+  "fork_package_hook": {
+    "python": "3.12.14",
+    "package": "research/p112-singleton-corroboration",
+    "runs": [
+      {
+        "name": "metadata",
+        "command_after_python": [
+          "-B",
+          "scripts/research_package.py",
+          "--package",
+          "research/p112-singleton-corroboration",
+          "--check-only"
+        ],
+        "started_at": "2026-10-14T04:23:26.256123+00:00",
+        "seconds": 0.217933,
+        "returncode": 0,
+        "stderr_empty": true,
+        "stdout_sha256": "5873404cb4424dca918a00d503569f3c29a3190fd029a007e1afb2006399f647"
+      },
+      {
+        "name": "registered",
+        "command_after_python": [
+          "-B",
+          "scripts/research_package.py",
+          "--package",
+          "research/p112-singleton-corroboration"
+        ],
+        "started_at": "2026-10-14T04:23:26.475376+00:00",
+        "seconds": 14.013673,
+        "returncode": 0,
+        "stderr_empty": true,
+        "stdout_sha256": "e468cee1c279d3e40692c474d051a362c3134aac401da6792f7de4e74f793c95"
+      }
+    ],
+    "registered_command_count": 3,
+    "read_only_historical_provenance_access": "GIT_DIR pointed at original repository Git object store; hook used only git rev-parse and git show. No working tree, index, refs or repository files written.",
+    "source_script_sha256": "d7e12e93799b3e244d74de5cb979855efd5307a088854e52cdb32ce1d4f7646f",
+    "inputs_unchanged": true,
+    "scope": "Real generic metadata/full hook in an isolated package layout; source history read from existing repository. Not hosted CI or target-branch publication."
+  },
+  "fork_package_corrupt_receipt_control": {
+    "command_after_python": [
+      "-I",
+      "-O",
+      "-B",
+      "review_examples.py"
+    ],
+    "mutation": "Saved isolated-nonoptimal complete_copy67 changed to64; producer source and wrapper unchanged.",
+    "returncode": 1,
+    "seconds": 0.531925,
+    "expected_message": "recomputed review examples differ from saved report",
+    "rejected_as_expected": true,
+    "source_and_implementation_unchanged": true
+  }
+}

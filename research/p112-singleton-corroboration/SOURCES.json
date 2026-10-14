@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "base_commit": "55a02580ce1b283026e9d3b3510b218f8c93a4de",
+  "files": [
+    {
+      "path": "certificates/selected-result.json",
+      "usage": "provenance",
+      "git_blob": "ae6a99f28aa468649eb66a361e764d769363bf11",
+      "sha256": "10b9e340fd8e354a37a0c4813c90e5de1dd42044b5f6aca4a3fc5a42b685fa32"
+    },
+    {
+      "path": "docs/research/agent-task-catalog.json",
+      "usage": "provenance",
+      "git_blob": "c05fafaa25ba95b2d5af86b1800427198e3d20eb",
+      "sha256": "89b5928bc92c81e2647b6d702a7ad85a6795b8f44e2eb267b2ff3145d8f2b2ce"
+    }
+  ],
+  "external_source_pins": [
+    {
+      "path": "research/p112-three-mode-seed40/README.md",
+      "usage": "Context, source attribution, or copied-table provenance; not imported at runtime.",
+      "git_blob": "c80b963aced8a36c4f6ea3d2b941977bfd866dbb",
+      "sha256": "ca6b23d64f53086b0095c0104c2ea559198bdab8f943ce4c2722bb45207c548a",
+      "commit": "403158808f075dfafcd80da09f630b9a3fde6baa",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/403158808f075dfafcd80da09f630b9a3fde6baa/research/p112-three-mode-seed40/README.md",
+      "credit": "Hanson Sun / bbMisk, PR1512"
+    },
+    {
+      "path": "research/p112-three-mode-seed40/TASK.json",
+      "usage": "Context, source attribution, or copied-table provenance; not imported at runtime.",
+      "git_blob": "373796d6df4822a4e3d7959343530fb06fa8095c",
+      "sha256": "2ca45f1a4990f83726a6971c298f6784f5509ddd8893d68d0e11c946c97e6f32",
+      "commit": "403158808f075dfafcd80da09f630b9a3fde6baa",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/403158808f075dfafcd80da09f630b9a3fde6baa/research/p112-three-mode-seed40/TASK.json",
+      "credit": "Hanson Sun / bbMisk, PR1512"
+    },
+    {
+      "path": "research/p112-three-mode-seed40/SOURCES.json",
+      "usage": "Context, source attribution, or copied-table provenance; not imported at runtime.",
+      "git_blob": "9ddddb519ea5576f005f79d48256a89c71c6e1da",
+      "sha256": "445ba664bd697ddeba5c25f0bd5cb619b576e552982e3ca91d9ccc1f0d6722ee",
+      "commit": "403158808f075dfafcd80da09f630b9a3fde6baa",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/403158808f075dfafcd80da09f630b9a3fde6baa/research/p112-three-mode-seed40/SOURCES.json",
+      "credit": "Hanson Sun / bbMisk, PR1512"
+    },
+    {
+      "path": "research/p112-three-mode-seed40/verify.py",
+      "usage": "Context, source attribution, or copied-table provenance; not imported at runtime.",
+      "git_blob": "ac118898d95f1f10dfc42ee70ae95e1757e4d3db",
+      "sha256": "c48553a004e07f65a5b41cc9394dc7e503378d2e49fc48b196e08d90d70009f5",
+      "commit": "403158808f075dfafcd80da09f630b9a3fde6baa",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/403158808f075dfafcd80da09f630b9a3fde6baa/research/p112-three-mode-seed40/verify.py",
+      "credit": "Hanson Sun / bbMisk, PR1512"
+    },
+    {
+      "path": "research/p112-three-mode-seed40/independent_check.py",
+      "usage": "Context, source attribution, or copied-table provenance; not imported at runtime.",
+      "git_blob": "d11c588e0134bce7dada8c43580940ccdc6d35ed",
+      "sha256": "a85226417278a1c53f8d1a9fa19980a3678e3a477a98ee958c24e2c4b8c0dcb4",
+      "commit": "403158808f075dfafcd80da09f630b9a3fde6baa",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/403158808f075dfafcd80da09f630b9a3fde6baa/research/p112-three-mode-seed40/independent_check.py",
+      "credit": "Hanson Sun / bbMisk, PR1512"
+    },
+    {
+      "path": "research/p112-three-mode-seed40/CERTIFICATE.json",
+      "usage": "Context, source attribution, or copied-table provenance; not imported at runtime.",
+      "git_blob": "440e04b1727b0eca72f6b76fea61874bd8887e3f",
+      "sha256": "63d844896913e264747d0bca8233c1705e43b998dec10eaed1eadbc207c992c6",
+      "commit": "403158808f075dfafcd80da09f630b9a3fde6baa",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/403158808f075dfafcd80da09f630b9a3fde6baa/research/p112-three-mode-seed40/CERTIFICATE.json",
+      "credit": "Hanson Sun / bbMisk, PR1512"
+    },
+    {
+      "path": "research/p112-column-correction-floor/README.md",
+      "usage": "Two-mode singleton context and credit only.",
+      "git_blob": "8722c321d2d3f4cb351eb8245f70bd563479027d",
+      "sha256": "e657c9ae66bbef359f09afe8fb83d6257dcc5a683697dbe89cf98bd3da54264e",
+      "commit": "5e2d8ec8ebff17c85e813ef1bd6f06312c1fe16a",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/5e2d8ec8ebff17c85e813ef1bd6f06312c1fe16a/research/p112-column-correction-floor/README.md",
+      "credit": "Gareth Davidson / bitplane, PR1468"
+    },
+    {
+      "path": "research/p112-multiline-free-rectangles-seed42/README.md",
+      "usage": "Two-mode span context and credit only.",
+      "git_blob": "909971c944b14754f28a345d309c0fb3fb0385fa",
+      "sha256": "dd01a5f293c9f5f3ede914feb00827063a3d6ff5b2036b5204c7581d1eb386e0",
+      "commit": "ea2f6bf0940580dfaeb393ec0786abc8f7bbb7b4",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/ea2f6bf0940580dfaeb393ec0786abc8f7bbb7b4/research/p112-multiline-free-rectangles-seed42/README.md",
+      "credit": "Hanson Sun / bbMisk, PR1473"
+    },
+    {
+      "path": "research/p112-single-lift/geometry.py",
+      "usage": "Retained model context; no runtime import.",
+      "git_blob": "34c1abf059d7be5fe5e5044cf01a09b843071c68",
+      "sha256": "3857c11ec731a602b8059d85d58fbb3b641bab687bb33016a0e54f7567752c8a",
+      "commit": "55a02580ce1b283026e9d3b3510b218f8c93a4de",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/55a02580ce1b283026e9d3b3510b218f8c93a4de/research/p112-single-lift/geometry.py",
+      "credit": "Retained PR1375 / PR845 / PR717 / PR968 lineage"
+    },
+    {
+      "path": "research/p112-single-lift/PROOF.md",
+      "usage": "Retained model context; no runtime import.",
+      "git_blob": "609a2b1f83f17523a570a1a2e1731817c87a587a",
+      "sha256": "02147aa2a93a449dcbd15886b42d993bd0dbb554d7c15d347a9567fbe2a442e1",
+      "commit": "55a02580ce1b283026e9d3b3510b218f8c93a4de",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/55a02580ce1b283026e9d3b3510b218f8c93a4de/research/p112-single-lift/PROOF.md",
+      "credit": "Retained PR1375 / PR845 / PR717 / PR968 lineage"
+    }
+  ],
+  "external_pin_validation": "Authenticated against exact fetched Git objects during local source preparation. Informational pins and copied-table relation are not validated by the generic main-provenance hook. No predecessor code is imported by the delivered checkers.",
+  "copied_data": {
+    "path": "published_strata.json",
+    "sha256": "7d10cf9074bc8f4fdf20060d298df74d56e656c254ee26a2c2b07887d8634403",
+    "rows": 39,
+    "origin_commit": "403158808f075dfafcd80da09f630b9a3fde6baa",
+    "origin_path": "research/p112-three-mode-seed40/CERTIFICATE.json",
+    "origin_git_blob": "440e04b1727b0eca72f6b76fea61874bd8887e3f",
+    "origin_sha256": "63d844896913e264747d0bca8233c1705e43b998dec10eaed1eadbc207c992c6",
+    "exact_relation": "Each predecessor strata record is copied as [coefficient, support, size, span], preserving order; all 39 rows compared equal.",
+    "published_geometry_sha256": "384dd5b48cfd306667deafa09f58255f39a8099e609122dc695fe4ce416b2115"
+  },
+  "completed_adjacent_work": {
+    "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/1591",
+    "discussion": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1360",
+    "head": "264b8dcfc56584797ebf36d69ee35de18313fd27",
+    "credit": "Arham Tahir",
+    "status_at_check": "OPEN PR; Discussion1360 DONE and scope released.",
+    "boundary": "One changed odd entry with all nine factor terms variable; current package requires actual left support >=2 and mixes only three original modes plus correction. Not a theorem or runtime dependency.",
+    "validation": "Direct public head/body read at the prepublication check; no PR1591 code or proof replay is claimed."
+  },
+  "producer_archive": {
+    "sha256": "d6ef742ccde629d53cf4f88ebe5a5b05bd818fe79ceed5513c302bc824e8c39a",
+    "received_directory": "p112_singleton_study",
+    "validated_manifest_files": 14,
+    "all_archive_files_match_extraction": true
+  },
+  "delivered_files": [
+    {
+      "path": "proof.md",
+      "sha256": "325b16ede98a60c379d6cbd51177b7670a54212782472e85d203c34ad3f38ab1",
+      "bytes": 18509,
+      "retained_unchanged": false
+    },
+    {
+      "path": "verify.py",
+      "sha256": "8a7fb4ebea94938c6c5ffbcb49b42c1dc0480d530502d1709dc50de9994a8ca9",
+      "bytes": 18703,
+      "retained_unchanged": true
+    },
+    {
+      "path": "independent_check.py",
+      "sha256": "a4b822a949c6c841a80dd0b9c1d7e599b5580e83442aa08fc2d467889d3c2fb0",
+      "bytes": 10826,
+      "retained_unchanged": true
+    },
+    {
+      "path": "certificate.json",
+      "sha256": "9af6497a986bca69b7ee5abd964d8f3504ce0980e85b235b73cc54985908e344",
+      "bytes": 40422,
+      "retained_unchanged": true
+    },
+    {
+      "path": "published_strata.json",
+      "sha256": "7d10cf9074bc8f4fdf20060d298df74d56e656c254ee26a2c2b07887d8634403",
+      "bytes": 1984,
+      "retained_unchanged": true
+    }
+  ],
+  "editorial_changes": {
+    "proof.md": {
+      "producer_sha256": "325b16ede98a60c379d6cbd51177b7670a54212782472e85d203c34ad3f38ab1",
+      "packaged_sha256": "46a53be3cbe2cdc1b0479b52dabe6a1e90638722e71a15b2e358eee86b74fac6",
+      "changes": [
+        "Research attribution normalized to browser-observed GPT-6 Pro.",
+        "First paragraph of Section7 now separates producer Python 3.13.5 from local Python3.12.14 normal/optimized replay.",
+        "Two header Markdown hard breaks replaced with blank lines to pass whitespace checks; mathematical sections unchanged."
+      ],
+      "mathematics_sections_1_through_6_byte_identical": true,
+      "remaining_proof_text_unchanged": true
+    },
+    "packaging": "README, SOURCES.md and repository metadata written from supplied result and local receipts; no mathematical or checker repair."
+  },
+  "separate_review": {
+    "source": "Separate GPT-6 Pro adversarial review recovered through chat text; Sections 5-7 retained in equality-review.md.",
+    "transport_text_sha256": "91b41ce2f327e4d0571814ae96fb622d0b89e6c56d0d199f08b6551b6b5db135",
+    "supplement_sha256": "4fd9f02d0fa2d7d0ac1a5d9c835c7dab4a93448a168d53f171675a57a268884b",
+    "authentication_boundary": "Transported text only, not authenticated against the original downloadable reviewer file.",
+    "editorial_changes": "Remove ChatGPT content-reference markers and next-part transport separator; prepend scope/provenance and equation-reference mapping. No mathematical text changes.",
+    "result": "No flaw reported in the bounded theorem; reviewer derives exact nonisolated penalty and equality description. No novelty claim relative to PR1613.",
+    "execution_boundary": "Reviewer original programs not locally obtained/executed and did not audit producer programs. Our review_examples.py mechanically replays explicit supplied support cases/matrices through the pinned producer API."
+  },
+  "direct_overlapping_work": {
+    "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/1613",
+    "head": "a34723742801f877c9636ed72f176a7ffa7bf005",
+    "readme_git_blob": "96fcadf2369c1841f95df784c63201bc11588e06",
+    "task_git_blob": "befa0ec1da2f5d731f2c8851923f23986754e5e7",
+    "credit": "Hanson Sun / bbMisk",
+    "relation": "Broader all 56-triple one-column theorem contains our original fixed-triple COPY64/power scope; explicitly credits Discussion1550. Context only, not a runtime or theorem dependency.",
+    "validation": "Public pinned body/README/TASK read; no code replay or mathematical audit of PR1613."
+  },
+  "mechanical_review_examples": {
+    "script": "review_examples.py",
+    "sha256": "50164d0c77397ee0444f7b38307c7af49dce2fe536e4f84bfc91fdc975ebd3d6",
+    "receipt": "review_examples.json",
+    "receipt_sha256": "4e03cb3548703ba3c1386bec91e2194d356d8f0e2bc497a0d37b5abd80eef6e8",
+    "producer_api_source_sha256": "8a7fb4ebea94938c6c5ffbcb49b42c1dc0480d530502d1709dc50de9994a8ca9",
+    "attribution": "Codex transcription of explicit GPT-6 Pro review checks; no new mathematical derivation or independent rank engine."
+  }
+}
